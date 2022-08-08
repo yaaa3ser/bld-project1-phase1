@@ -1,0 +1,182 @@
+        /*nav*/
+        nav{
+            display: flex;
+            align-items: center;
+            /*border: 1px solid green;*/
+        }
+        nav div{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        div.search{
+            flex: 1;
+            padding: 10px;
+            display: flex;
+            border: 1px solid black;
+            border-radius: 30px;
+        }
+        input {
+            border: hidden;
+        }
+        
+        nav button{
+            border: hidden;
+            background-color: white;
+        }
+        .lo{
+            background-color: white;
+            border: 1px solid black;
+            color: black;
+            padding: 10px 22px;
+            text-align: center;
+        }
+        .si{  /*sign*/
+            background-color: black;
+            border: 1px solid black;
+            color: white;
+            padding: 10px 22px;
+            text-align: center;
+        }
+        .small, .sma{
+            display: none;
+        }
+        .tag.big {
+            float: left;
+            position: absolute;
+            left: 200px;
+            top: 120px;
+            background-color: white;
+            padding: 5px;
+            color: black;
+        }
+       .tag.sma, .photo.sma {
+            float: left;
+            position: relative;
+            left: 100px;
+            background-color: white;
+            padding: 5px;
+            color: black;
+        }
+        
+        .hoverblue:hover {
+            cursor: pointer;
+            color: #5624d0;
+        }
+
+        @media screen and (max-width:915px) {
+            .small, .sma{
+                display: block;
+            }
+            
+            .big{
+                display: none;
+            }
+            div.search{
+                display: none;
+            }
+            nav{
+                justify-content: space-between;
+            }
+
+        }
+
+        /*header*/        
+        @media (min-width: 915px) {
+             .card{
+                position: relative;
+            }
+
+             .card .card_info{
+                background-color: white;
+                padding: 10px;
+                padding-bottom: 0px;
+                width: 350px;
+                position: absolute;
+                top: 60px;
+                left: 12%;
+                box-shadow: 2px 2px 5px grey;
+            }
+        }
+
+        @media (max-width: 915px) {
+            .card{
+                 padding: 10px;
+                 box-shadow: 2px 2px 10px grey;
+            }
+            .card .card_info{
+                margin-left: 6%;
+            }
+        }
+       /*courses section*/
+        section {
+            width: 95%;
+        }
+        
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        li {
+            font-weight: bold;
+            margin-right: 12px;
+            color: #6a6f73;
+        }
+        
+        li:hover {
+            color: black;
+            cursor: pointer;
+        }
+        
+        .explore {
+            padding: 10px;
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            font-weight: bold;
+        }
+        
+        .explore:hover {
+            cursor: pointer;
+            background-color: aliceblue;
+        }
+        
+        .courses {
+            width: fit-content;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        .course {
+            width: 240px;
+            margin-bottom: 15px;
+            margin-right: 10px;
+        }
+        .card2 {
+            margin-right: 5%;
+            border: 1px solid gray;
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .courseDesc{
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+        .course p{
+            font-size: 14px;
+            color: gray;
+        }
+        .sale{
+            color: gray;
+            text-decoration: line-through;
+        }
+        .price{
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+        
