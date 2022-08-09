@@ -2,11 +2,11 @@
         nav{
             display: flex;
             align-items: center;
-            /*border: 1px solid green;*/
         }
         nav div{
             margin-left: 10px;
             margin-right: 10px;
+            min-width: fit-content;
         }
         div.search{
             flex: 1;
@@ -17,6 +17,7 @@
         }
         input {
             border: hidden;
+            outline: none;
         }
         
         nav button{
@@ -109,7 +110,7 @@
         }
        /*courses section*/
         section {
-            width: 95%;
+            width: 95%;  
         }
         
         ul {
@@ -117,12 +118,14 @@
             display: flex;
             margin: 0px;
             padding: 0px;
+            
         }
         
         li {
             font-weight: bold;
             margin-right: 12px;
             color: #6a6f73;
+            min-width: fit-content;
         }
         
         li:hover {
@@ -147,7 +150,7 @@
             width: fit-content;
             margin-top: 15px;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             flex-wrap: wrap;
         }
         
