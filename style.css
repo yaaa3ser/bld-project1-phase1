@@ -110,7 +110,9 @@
         }
        /*courses section*/
         section {
-            width: 95%;  
+            width: 95%;
+            margin-left: 2.5%;    
+            overflow: auto;
         }
         
         ul {
@@ -160,11 +162,11 @@
             margin-right: 10px;
         }
         .card2 {
-            margin-right: 5%;
+            
             border: 1px solid gray;
             margin-top: 10px;
             padding-left: 10px;
-            padding-right: 10px;
+            
         }
         .courseDesc{
             margin-top: 5px;
